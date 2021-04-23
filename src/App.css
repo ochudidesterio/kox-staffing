@@ -31,4 +31,7 @@ font-size: xx-large;}
     font-size: 14px;
     font-weight: 200;
   }
+  .title{
+    width: 98vw;
+  }
 }
