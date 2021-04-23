@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import {NavHashLink} from 'react-router-hash-link'
 
 import './navbar.css'
 
@@ -13,9 +13,9 @@ const NavBar = () => {
     
       <nav className="navbar">
         
-        <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <NavHashLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
           Cox Systems
-        </Link>
+        </NavHashLink>
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
@@ -24,54 +24,54 @@ const NavBar = () => {
             
           </li>
           <li className="nav-item">
-            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+            <NavHashLink smooth to="/#home" className="nav-links" onClick={closeMobileMenu}>
               Home
-            </Link>
+            </NavHashLink>
           </li>
 
           <li className="nav-item">
-            <Link to="/staffing" className="nav-links" onClick={closeMobileMenu}>
+            <NavHashLink smooth to="/#staffing" className="nav-links" onClick={closeMobileMenu}>
               Staffing
-            </Link>
+            </NavHashLink>
           </li>
           <li className="nav-item">
-            <Link
-              to="/services"
+            <NavHashLink
+             smooth to="/#services"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Services
-            </Link>
+            </NavHashLink>
           </li>
           
 
           <li className="nav-item">
-            <Link
+            <NavHashLink
               to="/career"
               className="nav-links"
               onClick={closeMobileMenu}
             >
             Career Readiness resources
-            </Link>
+            </NavHashLink>
           </li>
 
           <li className="nav-item">
-            <Link
-              to="/locations"
+            <NavHashLink
+             smooth to="/#locations"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               Locations
-            </Link>
+            </NavHashLink>
           </li>
           <li className="nav-item">
-            <Link
+            <NavHashLink
               to="/more"
               className="nav-links"
               onClick={closeMobileMenu}
             >
               More
-            </Link>
+            </NavHashLink>
           </li>
         </ul>
       </nav>

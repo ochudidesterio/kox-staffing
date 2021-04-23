@@ -33,10 +33,10 @@
 }
 .nav-links {
   color: rgb(36, 34, 34);
-  font-weight: bold;
+  font-weight: 650;
   text-decoration: none;
   font-size: 18px;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 0.5rem;
 }
 .nav-links:hover{
   color: #61dafb;
@@ -52,17 +52,18 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 40vh;
+    width: 70%;
+    height: 70vh;
     position: absolute;
-    top: 53px;
+    top: 20px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
   }
   .nav-menu.active {
-    background: #cd5c5c;
+    background: white;
     left: 0;
+    color: black;
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
