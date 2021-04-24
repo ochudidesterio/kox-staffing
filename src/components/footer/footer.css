@@ -14,7 +14,7 @@
 .footer-link>.f-link{
   color: black;
 }
-@media screen and (max-width:760px) {
+@media screen and (max-width:700px) {
   .footer-link{
     display: block;
     flex-direction: column;

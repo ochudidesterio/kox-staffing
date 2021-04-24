@@ -18,7 +18,7 @@ function Body() {
       </div>
       <div className="body-content-first" id="home">
         <div className="body-content-about">
-          <h1>ABOUT COX SYSTEMS</h1>
+          <h1>ABOUT KOX SYSTEMS</h1>
           <p>
             Apex Systems has been delivering staffing and services for more than
             25 years. We connect top scientific, technology, digital, and
@@ -300,7 +300,7 @@ function Body() {
           <h1>LOCATIONS</h1>
           <div className="body-content-location-grid">
             <div className="body-content-location-left">
-              <img src={map} alt="map" />
+              <img className="map-img" src={map} alt="map" />
             </div>
             <div className="body-content-location-right">
               Cork, Ireland* <br />
@@ -338,7 +338,7 @@ function Body() {
           <button type="submit" className="btn-submit">
             SUBMIT YOUR RESUME
           </button>
-          <p>Or call us at our Cork office +353 21 2330 150</p>
+          <p>Or call us at our Cork office </p>
         </div>
       </div>
     </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter as Router,  Switch } from "react-router-dom";
+import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
 
 import NavBar from "./components/navbar/Navbar";
 import Body from "./components/body/Body";
 import Scrollup from "./components/scrollup/Scrollup";
 import Footer from "./components/footer/Footer";
-// import LegalNote from "./components/navbar/legalnote/LegalNote";
-// import Privacy from "./components/privacy/Privacy";
+ import LegalNote from "./components/navbar/legalnote/LegalNote";
+import Privacy from "./components/privacy/Privacy";
 function App() {
   return (
     <Router basename={"app"}>
@@ -20,12 +20,13 @@ function App() {
           <i class="fab fa-linkedin"></i>
         </div>
       </div>
-      <Body />
-      <Scrollup />
       <Switch>
-        {/* <Route exact path="/legal-note" component={LegalNote} />
-        <Route exact path='/privacy' component={Privacy} /> */}
+        <Route exact path='/' component={Body}/>
+        <Route exact path="/legal-note" component={LegalNote} />
+        <Route exact path='/privacy' component={Privacy} />
       </Switch>
+      <Scrollup />
+
       <Footer />
     </Router>
   );
