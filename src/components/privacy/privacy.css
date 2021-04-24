@@ -1,13 +1,11 @@
-.note{
-  
-  color: white;
+.policy{
   background-color: cadetblue;
-  
+  color: white;
 }
-.l-note{
+.p-policy{
   width: 80vw;
   margin: auto;
 }
-.l-note>p{
+.p-policy>p{
   text-align: justify;
 }

@@ -1,9 +1,10 @@
 import React from 'react'
-
+import './legalnote.css'
 function LegalNote() {
   return (
-    <div>
-      <h6>Legal Notice</h6>
+    <div className="note">
+      <div className="l-note">
+         <h2>Legal Notice</h2>
       
 
 ​<p>This information describes the terms and conditions for the use of the http://www.apexsystems.eu website. Should you disagree with these terms, please exit this site now. Please understand that further use of this site signifies your acceptance of the following terms and conditions.</p>
@@ -88,6 +89,8 @@ Sending unsolicited promotional email messages.
  
 
 Violation of these security rules may result in criminal or civil liability and prosecution. Apex Systems routinely investigates and refers to the proper authorities any occurrence that may constitute any such violation, and cooperates fully with law enforcement agencies in ensuring the prosecution of violators.</p>
+      </div>
+     
 
 
  

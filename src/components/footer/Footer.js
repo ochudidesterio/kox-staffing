@@ -9,7 +9,7 @@ function Footer() {
         <Link to="/privacy" className="f-link">Privacy</Link>
         <Link to="/legal-note" className="f-link">Legal note</Link>
       </div>
-      <p>&copy; {new Date().getFullYear()} Cox-systems</p>{" "}
+      <p>&copy; {new Date().getFullYear()} Kox-systems</p>{" "}
     </div>
   )
 }
