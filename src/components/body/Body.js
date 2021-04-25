@@ -21,18 +21,18 @@ function Body() {
         <div className="body-content-about">
           <h1>ABOUT KOX SYSTEMS</h1>
           <p>
-            Apex Systems has been delivering staffing and services for more than
+            Kox Systems has been delivering staffing and services for more than
             25 years. We connect top scientific, technology, digital, and
             engineering professionals at all career levels with companies across
             the world. We provide solutions within our core skill areas to
             transform how companies do business. With hundreds of thousands of
             successful matches and thousands of projects executed, we have built
-            a reputation as one of the best in the business. Apex serves and
+            a reputation as one of the best in the business. Kox serves and
             delivers to its European clients and consultants through its
-            European division, Oxford Global Resources Limited t/a Apex Systems.
+            European division, Oxford Global Resources Limited t/a Kox Systems.
           </p>
           <p>
-            Apex serves Global and Fortune 500, mid-market, and emerging
+            Kox serves Global and Fortune 500, mid-market, and emerging
             companies from a wide variety of industries including financial
             services, technology, healthcare, government, life sciences,
             communications and others.
@@ -333,7 +333,7 @@ function Body() {
         <div className="body-content-connect">
           <h1>CONNECT WITH US</h1>
           <p>
-            Are you interested in a position with Apex Systems? Send us your
+            Are you interested in a position with Kox Systems? Send us your
             information and resume by clicking the button below!
           </p>
           {/* <button type="submit" className="btn-submit">
