@@ -10,12 +10,12 @@ function LegalNote() {
 ​<p>This information describes the terms and conditions for the use of the http://www.apexsystems.eu website. Should you disagree with these terms, please exit this site now. Please understand that further use of this site signifies your acceptance of the following terms and conditions.</p>
 <p>1. General Use of This Site
 
-Oxford Global Resources Limited trading as Apex Systems (“Apex Systems”) authorises you to view and download sections of this website for your personal and non-commercial use. You are hereby notified that the content, script, and HTML codes used to generate the pages on this site are protected by copyright.
+Oxford Global Resources Limited trading as Kox Systems (Kox Systems”) authorises you to view and download sections of this website for your personal and non-commercial use. You are hereby notified that the content, script, and HTML codes used to generate the pages on this site are protected by copyright.
 </p>
 
-<p>2. Apex Systems is an Equal Opportunity Employer
+<p>2. Kox Systems is an Equal Opportunity Employer
 
-All qualified applicants will receive consideration for employment without regard to race, colour, religion, sex, age, sexual orientation, gender identity, national origin, disability, protected veteran status, or any other characteristic protected by law. Apex will consider qualified applicants with criminal histories in a manner consistent with the requirements of applicable law.</p>
+All qualified applicants will receive consideration for employment without regard to race, colour, religion, sex, age, sexual orientation, gender identity, national origin, disability, protected veteran status, or any other characteristic protected by law. Kox will consider qualified applicants with criminal histories in a manner consistent with the requirements of applicable law.</p>
 
 ​
 <p>3. Your Right to Work
@@ -25,7 +25,7 @@ In compliance with applicable law, all persons hired will be required to verify 
 
 <p>4. Statement of Legal Jurisdiction
 
-Apex Systems has its European headquarters at Penrose Wharf, Penrose Quay, Cork T23 XY28, Ireland. <br/>
+Kox Systems has its European headquarters at Penrose Wharf, Penrose Quay, Cork T23 XY28, Ireland. <br/>
 Any offers or advertisements shown on this website to provide staffing, outsourcing, employment, or placement services (whether on contract, temporary, or permanent) are null and void in any and all jurisdictions either foreign or domestic where prohibited by law.</p>
  
 
@@ -47,11 +47,11 @@ IN NO EVENT SHALL APEX SYSTEMS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, 
 
  
 
-Linked websites outside the bounds of the URL www.apexsystems.eu and any of its subdirectories are not under the control of Apex Systems. Therefore, Apex Systems disclaims any responsibility for the content and performance of any external website or any link found in such external website.
+Linked websites outside the bounds of the URL www.apexsystems.eu and any of its subdirectories are not under the control of Kox Systems. Therefore, Kox Systems disclaims any responsibility for the content and performance of any external website or any link found in such external website.
 
  
 
-URLs pointing to documents or sites outside of this website are provided to you only as a matter of convenience. The inclusion in this website of any URL or link does not imply an endorsement of a specific vendor, information provider, individual, entity, group, or organization by Apex Systems.
+URLs pointing to documents or sites outside of this website are provided to you only as a matter of convenience. The inclusion in this website of any URL or link does not imply an endorsement of a specific vendor, information provider, individual, entity, group, or organization by Kox Systems.
 
  
 
@@ -61,13 +61,13 @@ Linking to this website without authorisation is prohibited. You may obtain auth
 
  <p>7. Statement of Copyright & Trademark
 
-The entire content of this site, its script, and HTML code Copyright © 2019 by Apex Systems. All rights reserved under law.
+The entire content of this site, its script, and HTML code Copyright © 2019 by Kox Systems. All rights reserved under law.
 
-Copying or reproducing the pages contained in this website to any other server or location for further reproduction or distribution is prohibited, unless Apex Systems expressly grants specific rights individually to any party. Any rights not expressly granted are hereby reserved.
+Copying or reproducing the pages contained in this website to any other server or location for further reproduction or distribution is prohibited, unless Kox Systems expressly grants specific rights individually to any party. Any rights not expressly granted are hereby reserved.
 
  
 
-All brand names, trademarks, or logos that appear in this website are the property of their respective holders and are used by Apex Systems with their permission.</p>
+All brand names, trademarks, or logos that appear in this website are the property of their respective holders and are used by Kox Systems with their permission.</p>
 
  
 
@@ -88,7 +88,7 @@ Sending unsolicited promotional email messages.
 
  
 
-Violation of these security rules may result in criminal or civil liability and prosecution. Apex Systems routinely investigates and refers to the proper authorities any occurrence that may constitute any such violation, and cooperates fully with law enforcement agencies in ensuring the prosecution of violators.</p>
+Violation of these security rules may result in criminal or civil liability and prosecution. Kox Systems routinely investigates and refers to the proper authorities any occurrence that may constitute any such violation, and cooperates fully with law enforcement agencies in ensuring the prosecution of violators.</p>
       </div>
      
 

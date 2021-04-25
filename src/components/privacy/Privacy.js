@@ -7,17 +7,17 @@ function Privacy() {
         <h2>Privacy Policy</h2>
       <p>
         As a leading staffing company, Oxford Global Resources Limited trading
-        as Apex Systems (“Apex Systems”) collects relevant personal information
+        as Kox Systems (“Apex Systems”) collects relevant personal information
         of its consultants in order to understand and respond to your employment
         and contract needs. We know that this information is provided in good
-        faith. This privacy policy for the Apex Systems website honours that
+        faith. This privacy policy for the Kox Systems website honours that
         trust by explaining how we use and protect your personal information and
         how you can interact with us about it.
       </p>
       <p>
-        Apex Systems complies with the Data Protection Act (“Act”) and the
+        Kox Systems complies with the Data Protection Act (“Act”) and the
         General Data Protection Regulation (EU) 2016/679 (“GDPR”). To comply
-        with its obligations, Apex Systems applies the Data Protection
+        with its obligations, Kox Systems applies the Data Protection
         Principles which are set out in the applicable legislation. In summary,
         these principles state that personal data shall be:
       </p>
@@ -45,7 +45,7 @@ function Privacy() {
       </p>
       <p>
         Data subjects for the purpose of this policy include all living
-        individuals about whom Apex Systems holds personal data.
+        individuals about whom Kox Systems holds personal data.
       </p>
       <p>
         Personal data means data relating to a living individual who can be
@@ -62,7 +62,7 @@ function Privacy() {
       <p>
         Data users include employees whose work involves using personal data.
         Data users have a duty to protect the information they handle by
-        following Apex Systems’ data protection and security policies at all
+        following Kox Systems’ data protection and security policies at all
         times.
       </p>
       <p>
@@ -89,9 +89,9 @@ function Privacy() {
       </p>
       <h2>Information Collection</h2>
       <p>
-        Apex Systems is committed to safeguarding the privacy of our website
+        Kox Systems is committed to safeguarding the privacy of our website
         visitors. When you view and browse the site, you do so anonymously. If
-        you choose to engage our services, Apex Systems will ask you to provide
+        you choose to engage our services, Kox Systems will ask you to provide
         the following personal data:
       </p>
       <ul>
@@ -109,9 +109,9 @@ function Privacy() {
         </li>
       </ul>
       <p>
-        Apex Systems may also collect aggregate or demographic data through
+        Kox Systems may also collect aggregate or demographic data through
         cookies, as described below under “Cookies.” This information helps us
-        better understand and improve the experience of visiting the Apex
+        better understand and improve the experience of visiting the Kox
         Systems website.
       </p>
       <h2>Children</h2>
@@ -121,7 +121,7 @@ function Privacy() {
       </p>
       <h2>Security</h2>
       <p>
-        Apex Systems takes care to protect the security of the personal
+        Kox Systems takes care to protect the security of the personal
         information you provide on our website. We use Secure Socket Layer (SSL)
         data encryption for all data transmissions over the Internet, and we ask
         you to create a robust password for your account (if account creation is
@@ -134,15 +134,15 @@ function Privacy() {
       </p>
       ​<h2>Use of Personal Data</h2>
       <p>
-        Apex Systems does not sell or rent personal information to third parties
+        Kox Systems does not sell or rent personal information to third parties
         and will not disclose your personal information to a third party without
         your permission unless if required by law. When we request your personal
-        information, Apex Systems will always specify how we intend to use it,
+        information, Kox Systems will always specify how we intend to use it,
         and we will not use it for any other purpose without your consent.
       </p>
       ​
       <p>
-        In general, Apex Systems and its affiliates use and process your
+        In general, Kox Systems and its affiliates use and process your
         personal information for the following necessary business functions:
       </p>
       ​
@@ -152,19 +152,19 @@ function Privacy() {
         your search for qualified talent and services, or job placement;
       </p>
       <p>
-        Communicate with you directly: Apex Systems staff may contact you to
+        Communicate with you directly: Kox Systems staff may contact you to
         answer your questions, inform you of job postings and opportunities,
         share best practices and to provide any other information that you may
         have requested;
       </p>
       <p>
-        Keeping your personal information accurate: Apex Systems staff may
+        Keeping your personal information accurate: Kox Systems staff may
         contact you to ensure that we keep up-to-date and accurate information
         about you regarding your job searches or requirements and to assess your
         suitability or availability for current or future assignments;
       </p>
       <p>
-        Enable prospective employers to get to know you: Apex Systems may
+        Enable prospective employers to get to know you: Kox Systems may
         disclose your information (qualifications, salary requirements,
         employment history, etc.) to interested employers so they can match your
         talents with their specific needs;
@@ -183,19 +183,19 @@ function Privacy() {
         Payment of salaries and expenses: Where, as a Consultant, you have been
         successful in securing an assignment, we will use your personal
         information to ensure that your fees and expenses are paid to you in
-        accordance with your contract with Apex Systems;
+        accordance with your contract with Kox Systems;
       </p>
       <p>
-        Support legal requirements: Apex Systems may disclose your information
+        Support legal requirements: Kox Systems may disclose your information
         to legal authorities in cases involving threats to personal safety,
         fraud and other suspected or actual illegal activities. We will also
-        record and store any consents that you have given to Apex Systems;
-        Transfer business ownership: If Apex Systems or any of our subsidiaries
+        record and store any consents that you have given to Kox Systems;
+        Transfer business ownership: If Kox Systems or any of our subsidiaries
         is sold to another company, your information may be included with the
         sale as part of our assets; and,
       </p>
       <p>
-        Apex Systems and its affiliates may use your personal data and other
+        Kox Systems and its affiliates may use your personal data and other
         information collected through the website to help us improve the
         provision of services to you.
       </p>
@@ -252,17 +252,17 @@ function Privacy() {
       <p>
         If we ever contact you to get your feedback on ways to improve our
         services, you have the choice to opt out or if you wish to withdraw your
-        consent to Marketing communications please email Apex Systems
+        consent to Marketing communications please email Kox Systems
         Communications.
       </p>
       <h2>Transfer of Your Data</h2>
       <p>
-        Apex Systems is a wholly-owned subsidiary of a US LLC, Apex Systems,
-        LLC. If you provide personal data to this website and to Apex Systems,
+        Kox Systems is a wholly-owned subsidiary of a US LLC, Kox Systems,
+        LLC. If you provide personal data to this website and to Kox Systems,
         it is possible that such personal data may be transferred from your
-        current location to the offices and servers of Apex Systems and its
+        current location to the offices and servers of Kox Systems and its
         affiliates, agents and service providers located in other countries,
-        outside the EU. While Apex Systems shall take appropriate measures to
+        outside the EU. While Kox Systems shall take appropriate measures to
         ensure that your personal data shall be protected in accordance with
         applicable EU laws, you should be aware that the country to which your
         personal data may be transferred may not have equivalent Data Protection
@@ -274,27 +274,27 @@ function Privacy() {
       <p>
         If you wish to request removal of your personal data from our records or
         withdraw consent to the processing or transfer of your personal data by
-        Apex Systems, please contact us by clicking here
+        Kox Systems, please contact us by clicking here
       </p>
       <p>
         We will also need to share your personal information with parties other
-        than Apex Systems to enable us to provide the services that you have
+        than Kox Systems to enable us to provide the services that you have
         requested as follows:
       </p>
-      <p>between the companies in the Apex Systems’ group;</p>
+      <p>between the companies in the Kox Systems’ group;</p>
       <p>
         to sub-contractors or processors for the performance of services they
-        are providing to Apex Systems;
+        are providing to Kox Systems;
       </p>
       <p>
-        between Apex Systems’ Clients and Consultants and their third party
+        between Kox Systems’ Clients and Consultants and their third party
         representatives, including third party payroll companies and Client
         Master Service Providers;
       </p>
       <p>
-        with relevant Authorities where Apex Systems is under a legal duty to
+        with relevant Authorities where Kox Systems is under a legal duty to
         disclose your personal information to comply with any legal obligation
-        or in order to defend a claim or enforce any contracts that Apex Systems
+        or in order to defend a claim or enforce any contracts that Kox Systems
         is a party to; and
       </p>
       <p>
@@ -394,7 +394,7 @@ function Privacy() {
       </p>
       <p>
         We may use other third party cookies for analytics and advertising. You
-        can contact us to learn more at marketing@Apex Systems.com
+        can contact us to learn more at marketing@Kox Systems.com
       </p>
       <p>What about other Tracking Technologies, like Web Beacons?</p>
       <p>
@@ -414,12 +414,12 @@ function Privacy() {
       </p>
       <h2>Retention</h2>
       <p>
-        Apex Systems will retain your personal data only for as long as
+        Kox Systems will retain your personal data only for as long as
         reasonably necessary for the purposes for which it was collected or in
         compliance with any applicable laws and regulations. You may request
         that your personal data be removed from our records by emailing your
         request to us at privacyeu@oxfordcorp.com. If you have requested removal
-        of your personal data from our records, Apex Systems reserves the right
+        of your personal data from our records, Kox Systems reserves the right
         to retain it in our files in some limited circumstances such as when
         such personal data may be necessary to honor your request to opt out of
         further communications, resolve disputes or comply with applicable
@@ -427,7 +427,7 @@ function Privacy() {
       </p>
       <h2>Updating Personal Information</h2>
       <p>
-        To ensure that Apex Systems staff and prospective employers can connect
+        To ensure that Kox Systems staff and prospective employers can connect
         with you, please try to keep your personal information up to date in our
         system. If you need to update or correct any inaccuracies please contact
         your Recruiter.
@@ -436,13 +436,13 @@ function Privacy() {
       <p>
         We may revise this online privacy policy from time to time. If we make
         any material changes to the policy, we will post the revised policy at
-        this location. Apex Systems will not reduce the protection of
+        this location. Kox Systems will not reduce the protection of
         information collected under a previous privacy policy without your
         consent.
       </p>
       <p>
         If you have specific privacy concerns about this website, or with
-        regards to submitting information to Apex Systems, please contact us by
+        regards to submitting information to Kox Systems, please contact us by
         clicking here.
       </p>
       </div>
