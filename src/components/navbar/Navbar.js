@@ -66,11 +66,11 @@ const NavBar = () => {
           </li>
           <li className="nav-item">
             <NavHashLink
-              to="/more"
+             smooth to="/#contact-us"
               className="nav-links"
               onClick={closeMobileMenu}
             >
-              More
+              Contact us
             </NavHashLink>
           </li>
         </ul>

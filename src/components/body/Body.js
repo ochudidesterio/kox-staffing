@@ -330,7 +330,7 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="body-content-fifth">
+      <div className="body-content-fifth" id="contact-us">
         <div className="body-content-connect">
           <h1>CONNECT WITH US</h1>
           <p>
