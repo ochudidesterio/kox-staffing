@@ -6,12 +6,14 @@ import ImageOne from "../../assets/images/Image1";
 import ImageTwo from "../../assets/images/image2";
 import ImageThree from "../../assets/images/image3";
 import Upload from "../Upload/Upload";
+import Example from "../video/video";
 
 function Body() {
   return (
     <div className="body">
       <div className="body-img">
-        <img className="img" src={back} alt="back" />
+        {/* <img className="img" src={back} alt="back" /> */}
+        <Example/>
         <div className="caption">
           <h1>VALUE REIMAGINED</h1>
           <p>World-class technology solutions for your most <br/> ambitious digital goals</p>

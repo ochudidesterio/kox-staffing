@@ -3,17 +3,18 @@ import Filebase from "react-file-base64";
 import { Button } from "@material-ui/core";
 import "./upload.css";
 function Upload() {
+  const handleClick =()=>{
+    window.open('mailto:email.example.com?subject=Subject&body=Body%20goes%20here')
+  }
   return (
     <form>
       <div className="upload">
-        <div className="fileInput">
-          <Filebase type="file" multiple={false} />
-        </div>
+       
         <div className="upload-btn">
           <Button
             style={{backgroundColor: "#61dafb", color: "#ffff"}}
             variant="contained"
-            
+            onClick={handleClick}
             type="submit"
           >
             Submit your resume

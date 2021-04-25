@@ -7,7 +7,7 @@ function Privacy() {
         <h2>Privacy Policy</h2>
       <p>
         As a leading staffing company, Oxford Global Resources Limited trading
-        as Kox Systems (“Apex Systems”) collects relevant personal information
+        as Kox Systems (Kox Systems”) collects relevant personal information
         of its consultants in order to understand and respond to your employment
         and contract needs. We know that this information is provided in good
         faith. This privacy policy for the Kox Systems website honours that

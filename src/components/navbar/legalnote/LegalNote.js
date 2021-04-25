@@ -7,7 +7,7 @@ function LegalNote() {
          <h2>Legal Notice</h2>
       
 
-​<p>This information describes the terms and conditions for the use of the http://www.apexsystems.eu website. Should you disagree with these terms, please exit this site now. Please understand that further use of this site signifies your acceptance of the following terms and conditions.</p>
+​<p>This information describes the terms and conditions for the use of the http://www.koxstafffing.com Should you disagree with these terms, please exit this site now. Please understand that further use of this site signifies your acceptance of the following terms and conditions.</p>
 <p>1. General Use of This Site
 
 Oxford Global Resources Limited trading as Kox Systems (Kox Systems”) authorises you to view and download sections of this website for your personal and non-commercial use. You are hereby notified that the content, script, and HTML codes used to generate the pages on this site are protected by copyright.
@@ -43,11 +43,11 @@ The user is solely responsible for decisions based on any information contained 
 
  <p>6. Disclaimers about Links to and from This Site
 
-IN NO EVENT SHALL APEX SYSTEMS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM THE LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, UNDER ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS WEBSITE, AND OF THE INFORMATION CONTAINED IN THIS WEBSITE, AND INFORMATION OBTAINED BY THE USER FROM ANY HYPERLINKS TO DOCUMENTS LOCATED WITHIN AND WITHOUT THIS WEBSITE.
+IN NO EVENT SHALL KOX SYSTEMS BE LIABLE FOR ANY SPECIAL, INCIDENTAL, INDIRECT, OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM THE LOSS OF USE, DATA, OR PROFITS, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF DAMAGE, UNDER ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS WEBSITE, AND OF THE INFORMATION CONTAINED IN THIS WEBSITE, AND INFORMATION OBTAINED BY THE USER FROM ANY HYPERLINKS TO DOCUMENTS LOCATED WITHIN AND WITHOUT THIS WEBSITE.
 
  
 
-Linked websites outside the bounds of the URL www.apexsystems.eu and any of its subdirectories are not under the control of Kox Systems. Therefore, Kox Systems disclaims any responsibility for the content and performance of any external website or any link found in such external website.
+Linked websites outside the bounds of the URL www.koxstaffing.com and any of its subdirectories are not under the control of Kox Systems. Therefore, Kox Systems disclaims any responsibility for the content and performance of any external website or any link found in such external website.
 
  
 
@@ -55,7 +55,7 @@ URLs pointing to documents or sites outside of this website are provided to you 
 
  
 
-Linking to this website without authorisation is prohibited. You may obtain authorisation by sending an email complete with the URLs of the site wishing to establish a link to  info@apexsystems.com </p>
+Linking to this website without authorisation is prohibited. You may obtain authorisation by sending an email complete with the URLs of the site wishing to establish a link to  info@koxstaffing.com </p>
 
 
 
