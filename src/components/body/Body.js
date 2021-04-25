@@ -1,6 +1,5 @@
 import React from "react";
 import "./body.css";
-import back from "../../assets/images/back.jpg";
 import map from "../../assets/images/Map.webp";
 import ImageOne from "../../assets/images/Image1";
 import ImageTwo from "../../assets/images/image2";
