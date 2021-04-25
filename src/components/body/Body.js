@@ -334,14 +334,13 @@ function Body() {
         <div className="body-content-connect">
           <h1>CONNECT WITH US</h1>
           <p>
-            Are you interested in a position with Kox Systems? Send us your
+            Are you interested in a position with Kox Systems? <br/> <br/> Send us your
             information and resume by clicking the button below!
           </p>
           {/* <button type="submit" className="btn-submit">
             SUBMIT YOUR RESUME
           </button> */}
           <Upload/>
-          <p>Or call us at our Cork office </p>
         </div>
       </div>
     </div>
