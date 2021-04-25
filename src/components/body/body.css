@@ -1,6 +1,10 @@
-.body>.body-img{
-  height: 400px;
+.body{
+  display: block;
+  flex-direction: column;
 }
+/* .body>.body-img{
+  height: 400px;
+} */
 
 .body>.body-content-first{
   
