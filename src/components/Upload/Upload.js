@@ -1,5 +1,4 @@
 import React from "react";
-import Filebase from "react-file-base64";
 import { Button } from "@material-ui/core";
 import "./upload.css";
 function Upload() {
