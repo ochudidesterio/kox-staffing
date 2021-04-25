@@ -5,6 +5,7 @@ import map from "../../assets/images/Map.webp";
 import ImageOne from "../../assets/images/Image1";
 import ImageTwo from "../../assets/images/image2";
 import ImageThree from "../../assets/images/image3";
+import Upload from "../Upload/Upload";
 
 function Body() {
   return (
@@ -335,9 +336,10 @@ function Body() {
             Are you interested in a position with Apex Systems? Send us your
             information and resume by clicking the button below!
           </p>
-          <button type="submit" className="btn-submit">
+          {/* <button type="submit" className="btn-submit">
             SUBMIT YOUR RESUME
-          </button>
+          </button> */}
+          <Upload/>
           <p>Or call us at our Cork office </p>
         </div>
       </div>
