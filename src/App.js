@@ -14,7 +14,7 @@ function App() {
       <div className="App">
         <NavBar />
         <div className="title">
-          <h1> Health & safety updates: Novel Coronavirus, Covid 19</h1>
+          <h1> Health & safety updates</h1>
         </div>
         <div className="linked-in">
           <i class="fab fa-linkedin"></i>
