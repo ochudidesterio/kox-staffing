@@ -20,12 +20,12 @@ All qualified applicants will receive consideration for employment without regar
 ​
 <p>3. Your Right to Work
 
-In compliance with applicable law, all persons hired will be required to verify identity and eligibility to work in the European Union and to complete any required employment eligibility verification documentation form(s) upon hire.
+In compliance with applicable law, all persons hired will be required to verify identity and eligibility to work in the USA Union and to complete any required employment eligibility verification documentation form(s) upon hire.
 </p>
 
 <p>4. Statement of Legal Jurisdiction
 
-Kox staffing has its European headquarters at Penrose Wharf, Penrose Quay, Cork T23 XY28, Ireland. <br/>
+Kox staffing has its USA headquarters at Penrose Wharf, Penrose Quay, Cork T23 XY28, Ireland. <br/>
 Any offers or advertisements shown on this website to provide staffing, outsourcing, employment, or placement services (whether on contract, temporary, or permanent) are null and void in any and all jurisdictions either foreign or domestic where prohibited by law.</p>
  
 

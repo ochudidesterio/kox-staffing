@@ -97,10 +97,11 @@
     font-size: 2rem;
   }
   .navbar-logo{
-    margin-top: 15px;
+    margin-top: 5px;
   }
   .navbar{
     justify-content: left;
+    height: 50px;
   }
   .navbar>.logo,
   .logo>.navbar-logo{

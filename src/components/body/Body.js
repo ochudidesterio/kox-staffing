@@ -29,8 +29,8 @@ function Body() {
             transform how companies do business. With hundreds of thousands of
             successful matches and thousands of projects executed, we have built
             a reputation as one of the best in the business. Kox serves and
-            delivers to its European clients and consultants through its
-            European division, Oxford Global Resources Limited t/a Kox staffing.
+            delivers to its USA clients and consultants through its
+            USA division, Oxford Global Resources Limited t/a Kox staffing.
           </p>
           <p>
             Kox serves Global and Fortune 500, mid-market, and emerging
@@ -107,7 +107,7 @@ function Body() {
           </div>
           <div className="body-content-staffing-grid-bottom">
             <div className="grid">
-              <h1>INFRASTRUCTURE AND SECURITy</h1>
+              <h1>INFRASTRUCTURE AND SECURITY</h1>
               <div className="circle">
                 <ImageOne />
               </div>
@@ -312,7 +312,7 @@ function Body() {
               Belgium Barcelona & Madrid, <br />
               Spain Kent, United Kingdombr <br />
               <br />
-              *Headquarters Countries we support across Europe: <br />
+              *Headquarters Countries we support across USA: <br />
               <br />
               Austria,Belgium, Bulgaria, Croatia, <br />
               Republic of Cyprus, Czech Republic, <br />
