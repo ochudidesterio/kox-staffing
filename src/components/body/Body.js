@@ -10,7 +10,7 @@ import Example from "../video/video";
 function Body() {
   return (
     <div className="body">
-      <div className="body-img">
+      <div className="body-img" id="career">
         {/* <img className="img" src={back} alt="back" /> */}
         <Example/>
         <div className="caption">
@@ -20,17 +20,17 @@ function Body() {
       </div>
       <div className="body-content-first" id="home">
         <div className="body-content-about">
-          <h1>ABOUT KOX SYSTEMS</h1>
+          <h1>ABOUT KOX STAFFING</h1>
           <p>
-            Kox Systems has been delivering staffing and services for more than
-            25 years. We connect top scientific, technology, digital, and
+            Kox staffing has been delivering staffing and services for 
+             years. We connect top scientific, technology, digital, and
             engineering professionals at all career levels with companies across
             the world. We provide solutions within our core skill areas to
             transform how companies do business. With hundreds of thousands of
             successful matches and thousands of projects executed, we have built
             a reputation as one of the best in the business. Kox serves and
-            delivers to its European clients and consultants through its
-            European division, Oxford Global Resources Limited t/a Kox Systems.
+            delivers to its USA clients and consultants through its
+            USA division Kox staffing.
           </p>
           <p>
             Kox serves Global and Fortune 500, mid-market, and emerging
@@ -107,7 +107,7 @@ function Body() {
           </div>
           <div className="body-content-staffing-grid-bottom">
             <div className="grid">
-              <h1>INFRASTRUCTURE AND SECURITy</h1>
+              <h1>INFRASTRUCTURE AND SECURITY</h1>
               <div className="circle">
                 <ImageOne />
               </div>
@@ -312,7 +312,7 @@ function Body() {
               Belgium Barcelona & Madrid, <br />
               Spain Kent, United Kingdombr <br />
               <br />
-              *Headquarters Countries we support across Europe: <br />
+              *Headquarters Countries we support across USA: <br />
               <br />
               Austria,Belgium, Bulgaria, Croatia, <br />
               Republic of Cyprus, Czech Republic, <br />
@@ -330,18 +330,17 @@ function Body() {
           </div>
         </div>
       </div>
-      <div className="body-content-fifth">
+      <div className="body-content-fifth" id="contact-us">
         <div className="body-content-connect">
           <h1>CONNECT WITH US</h1>
           <p>
-            Are you interested in a position with Kox Systems? Send us your
+            Are you interested in a position with Kox staffing? <br/> <br/> Send us your
             information and resume by clicking the button below!
           </p>
           {/* <button type="submit" className="btn-submit">
             SUBMIT YOUR RESUME
           </button> */}
           <Upload/>
-          <p>Or call us at our Cork office </p>
         </div>
       </div>
     </div>

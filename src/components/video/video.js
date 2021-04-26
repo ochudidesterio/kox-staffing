@@ -13,10 +13,9 @@ class Example extends Component {
   render() {
     return (
       <div className="video">
-        
-        <video name='media' className='player' loop autoPlay>
+        <video name="media" className="player"  loop autoPlay muted>
           <source src={this.state.videoURL} type="video/mp4" />
-          <source src={this.state.videoURL} type="video/ogg" />
+          {/* <source src={this.state.videoURL} type="video/ogg" /> */}
           Your browser does not support the video tag.
         </video>
       </div>

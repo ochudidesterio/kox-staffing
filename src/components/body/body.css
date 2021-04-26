@@ -1,6 +1,12 @@
-.body>.body-img{
-  height: 400px;
+.body{
+  display: block;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+
 }
+/* .body>.body-img{
+  height: 400px;
+} */
 
 .body>.body-content-first{
   
