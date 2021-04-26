@@ -22,15 +22,15 @@ function Body() {
         <div className="body-content-about">
           <h1>ABOUT KOX STAFFING</h1>
           <p>
-            Kox staffing has been delivering staffing and services for more than
-            25 years. We connect top scientific, technology, digital, and
+            Kox staffing has been delivering staffing and services for 
+             years. We connect top scientific, technology, digital, and
             engineering professionals at all career levels with companies across
             the world. We provide solutions within our core skill areas to
             transform how companies do business. With hundreds of thousands of
             successful matches and thousands of projects executed, we have built
             a reputation as one of the best in the business. Kox serves and
             delivers to its USA clients and consultants through its
-            USA division, Oxford Global Resources Limited t/a Kox staffing.
+            USA division Kox staffing.
           </p>
           <p>
             Kox serves Global and Fortune 500, mid-market, and emerging
