@@ -1,6 +1,7 @@
 .policy{
   background-color: cadetblue;
   color: white;
+  display: none;
 }
 .p-policy{
   width: 80vw;

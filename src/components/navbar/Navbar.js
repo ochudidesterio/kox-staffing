@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import {NavHashLink} from 'react-router-hash-link'
+import logo from '../../assets/images/IMG-20210425-WA0016.jpg'
 
 import './navbar.css'
 
@@ -12,10 +13,13 @@ const NavBar = () => {
     <>
     
       <nav className="navbar">
+        <div className="logo">
+          <NavHashLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
+        <img className="l-img" src={logo} alt="logo"/>
         
-        <NavHashLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
-        Kox Systems
         </NavHashLink>
+        </div>
+        
         <div className="menu-icon" onClick={handleClick}>
           <i className={click ? "fas fa-times" : "fas fa-bars"} />
         </div>
@@ -47,7 +51,7 @@ const NavBar = () => {
 
           <li className="nav-item">
             <NavHashLink
-              to="/career"
+             smooth to="/#career"
               className="nav-links"
               onClick={closeMobileMenu}
             >

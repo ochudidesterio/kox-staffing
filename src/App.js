@@ -22,7 +22,7 @@ function App() {
       </div>
       <Switch>
         <Route exact path='/' component={Body}/>
-        <Route exact path="/legal-note" component={LegalNote} />
+        <Route exact path='/legal-note' component={LegalNote} />
         <Route exact path='/privacy' component={Privacy} />
       </Switch>
       <Scrollup />
