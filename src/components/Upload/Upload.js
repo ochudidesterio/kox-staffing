@@ -3,7 +3,7 @@ import { Button } from "@material-ui/core";
 import "./upload.css";
 function Upload() {
   const handleClick =()=>{
-    window.open('mailto:email.example.com?subject=Subject&body=Body%20goes%20here')
+    window.open('mailto:info@KoxStaffing.com?subject=Subject&body=Body%20goes%20here')
   }
   return (
     <form>
