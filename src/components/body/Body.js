@@ -12,7 +12,7 @@ function Body() {
     <div className="body">
       <div className="body-img" id="career">
         {/* <img className="img" src={back} alt="back" /> */}
-        <Example/>
+        <Example />
         <div className="caption">
           <h1>Techno Centric World</h1>
           <p>World-class technology for your<br/> futuristic esteemed organizations</p>
@@ -73,7 +73,7 @@ function Body() {
               <h1> DIGITAL EXPERIENCE AND CONTENT STRATEGY</h1>
 
               <div className="circle">
-                <ImageTwo />{" "}
+                <ImageThree/>{" "}
               </div>
               <div className="hidden-content">
                 <ul>
@@ -186,7 +186,7 @@ function Body() {
             <div className="grid">
               <h1>SOFTWARE DEVEOLPMENT</h1>
               <div className="circle">
-                <ImageOne />
+                <ImageThree />
               </div>
               <div className="hidden-content">
                 <ul>
@@ -317,32 +317,24 @@ function Body() {
       <div className="body-content-fourth" id="locations">
         <div className="body-content-location">
           <h1>LOCATIONS</h1>
+          <div className="location">
+            <ul>
+              <li>Canada</li>
+            </ul>
+            <ul>
+              <li>USA</li>
+            </ul>
+
+          </div>
           <div className="body-content-location-grid">
             <div className="body-content-location-left">
               <img className="map-img" src={map} alt="map" />
             </div>
             <div className="body-content-location-right">
-              Cork, Ireland* <br />
-              Zug, Switzerland <br />
-              Schiphol, Holland Mechelen,
-              <br />
-              Belgium Barcelona & Madrid, <br />
-              Spain Kent, United Kingdombr <br />
-              <br />
-              *Headquarters Countries we support across USA: <br />
-              <br />
-              Austria,Belgium, Bulgaria, Croatia, <br />
-              Republic of Cyprus, Czech Republic, <br />
-              Denmark, Estonia, Finland, France, Germany, <br />
-              Greece, Hungary,Iceland, Ireland, <br />
-              Italy, Latvia, Lichtenstein Lithuania,
-              <br />
-              Luxembourg, Malta, Netherlands,
-              <br />
-              Norway Poland, Portugal, Romania,
-              <br />
-              Slovakia, Slovenia, Spain, Sweden, Switzerland and the United
-              Kingdom.
+              <ul className="l-list">
+                <li>Canada</li>
+                <li>USA</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -351,13 +343,13 @@ function Body() {
         <div className="body-content-connect">
           <h1>CONNECT WITH US</h1>
           <p>
-            Are you interested in a position with Kox staffing? <br/> <br/> Send us your
-            information and resume by clicking the button below!
+            Are you interested in a position with Kox staffing? <br /> <br />{" "}
+            Send us your information and resume by clicking the button below!
           </p>
           {/* <button type="submit" className="btn-submit">
             SUBMIT YOUR RESUME
           </button> */}
-          <Upload/>
+          <Upload />
         </div>
       </div>
     </div>
