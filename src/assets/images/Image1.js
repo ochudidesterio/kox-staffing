@@ -5,8 +5,9 @@ function ImageOne() {
   return (
     <div>
       <ReacrRoundedImage image={image}
-      imageWidth="120"
-      imageHeight="120"/>
+      imageWidth="130"
+      imageHeight="130"
+      />
     </div>
   )
 }
