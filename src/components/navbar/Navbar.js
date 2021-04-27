@@ -55,7 +55,7 @@ const NavBar = () => {
               className="nav-links"
               onClick={closeMobileMenu}
             >
-            Career Readiness resources
+            Help Center
             </NavHashLink>
           </li>
 

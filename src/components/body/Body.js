@@ -14,8 +14,8 @@ function Body() {
         {/* <img className="img" src={back} alt="back" /> */}
         <Example/>
         <div className="caption">
-          <h1>VALUE REIMAGINED</h1>
-          <p>World-class technology solutions for your most <br/> ambitious digital goals</p>
+          <h1>Techno Centric World</h1>
+          <p>World-class technology for your<br/> futuristic esteemed organizations</p>
         </div>
       </div>
       <div className="body-content-first" id="home">
@@ -29,7 +29,7 @@ function Body() {
             transform how companies do business. With hundreds of thousands of
             successful matches and thousands of projects executed, we have built
             a reputation as one of the best in the business. Kox serves and
-            delivers to its USA clients and consultants through its
+            delivers to its USA and Canada clients and consultants through its
             USA division Kox staffing.
           </p>
           <p>
@@ -86,7 +86,7 @@ function Body() {
                 </ul>
               </div>
             </div>
-            <div className="grid">
+            {/* <div className="grid">
               <h1>ENGINEERING</h1>
               <div className="circle">
                 <ImageThree />{" "}
@@ -103,7 +103,7 @@ function Body() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
           <div className="body-content-staffing-grid-bottom">
             <div className="grid">
@@ -140,7 +140,7 @@ function Body() {
                 </ul>
               </div>
             </div>
-            <div className="grid">
+            {/* <div className="grid">
               <h1>SCIENTIFIC</h1>
               <div className="circle">
                 <ImageThree />
@@ -152,7 +152,7 @@ function Body() {
                   <li>Regulatory affairs</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -203,37 +203,6 @@ function Body() {
               </div>
             </div>
             <div className="grid">
-              <h1>SUPPORT SERVICES</h1>
-              <div className="circle">
-                <ImageThree />
-              </div>
-              <div className="hidden-content">
-                <ul>
-                  <li>User Support</li>
-                  <li>Desktop Support</li>
-                  <li>
-                    Data center with <br /> Workforce management
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="grid">
-              <h1>WORKFORCE MANAGEMENT</h1>
-              <div className="circle">
-                <ImageTwo />
-              </div>
-              <div className="hidden-content">
-                <ul>
-                  <li>
-                    Enabling an On-demand workforce <br /> with world class
-                    Human <br /> capital management procesess
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="body-content-services-bottom">
-            <div className="grid">
               <h1>CENTRE OF EXCELLENCE</h1>
               <div className="circle">
                 <ImageOne />
@@ -250,7 +219,55 @@ function Body() {
                 </ul>
               </div>
             </div>
+            {/* <div className="grid">
+              <h1>SUPPORT SERVICES</h1>
+              <div className="circle">
+                <ImageThree />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>User Support</li>
+                  <li>Desktop Support</li>
+                  <li>
+                    Data center with <br /> Workforce management
+                  </li>
+                </ul>
+              </div>
+            </div> */}
             <div className="grid">
+              <h1>WORKFORCE MANAGEMENT</h1>
+              <div className="circle">
+                <ImageTwo />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>
+                    Enabling an On-demand workforce <br /> with world class
+                    Human <br /> capital management procesess
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="body-content-services-bottom">
+            {/* <div className="grid">
+              <h1>CENTRE OF EXCELLENCE</h1>
+              <div className="circle">
+                <ImageOne />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>
+                    Onshore <br /> development centers
+                  </li>
+                  <li>QA and Testing</li>
+                  <li>
+                    Project management <br /> with workforce management
+                  </li>
+                </ul>
+              </div>
+            </div> */}
+            {/* <div className="grid">
               <h1>DIGITAL ENTERPRISE</h1>
               <div className="circle">
                 <ImageThree />
@@ -264,8 +281,8 @@ function Body() {
                   <li>Digital Enterprise Software</li>
                 </ul>
               </div>
-            </div>
-            <div className="grid">
+            </div> */}
+            {/* <div className="grid">
               <h1>IT SECURITY</h1>
               <div className="circle">
                 <ImageOne />
@@ -280,8 +297,8 @@ function Body() {
                   </li>
                 </ul>
               </div>
-            </div>
-            <div className="grid">
+            </div> */}
+            {/* <div className="grid">
               <h1>IT STRATEGY CONSULTING</h1>
               <div className="circle">
                 <ImageTwo />
@@ -293,7 +310,7 @@ function Body() {
                   <li>Future State Visioning</li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
