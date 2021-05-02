@@ -1,0 +1,20 @@
+.contact {
+    padding-top: 10em;
+    min-height: 100vh;
+    background: url("../../static/images/pexels-sora-shimazaki-5926397.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: whitesmoke;
+    color: whitesmoke;
+  }
+  .contact > div {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .contact * + * {
+    margin-top: 0.9em;
+  }
+  .contact button {
+    width: 100%;
+  }
