@@ -24,4 +24,10 @@ export default makeStyles((theme) => ({
     marginBottom: 10,
     backgroundColor:"#61dafb"
   },
+  [theme.breakpoints.down('sm')]:{
+    paper:{
+    width:'75vw',
+    margin:'auto'
+  }
+  }
 }));

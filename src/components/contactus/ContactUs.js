@@ -21,6 +21,7 @@ function ContactUs() {
   const dispatch = useDispatch();
   const history = useHistory()
   let [postData, setPostData] = useState(initState);
+  const [errors] = useState({});
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -50,12 +51,14 @@ function ContactUs() {
         className={`${classes.root} ${classes.form}`}
         onSubmit={handleSubmit}
       >
+        {errors.firstname}
         <TextField
           name="firstname"
           label="First Name"
           type='text'
           variant="outlined"
           fullWidth
+          required={true}
           value={postData.firstname}
            onChange={(e) => handleChange(e)}
         />
@@ -65,6 +68,7 @@ function ContactUs() {
           label="Last Name"
           variant="outlined"
           fullWidth
+          required
           value={postData.lastname}
           onChange={(e) => handleChange(e)}
         />
@@ -73,6 +77,7 @@ function ContactUs() {
           name="email"
           label="Email"
           variant="outlined"
+          required
           value={postData.email}
           fullWidth
           onChange={(e) => handleChange(e)}
@@ -83,6 +88,7 @@ function ContactUs() {
           label="Phone Number"
           variant="outlined"
           fullWidth
+          required
           value={postData.phonenumber}
           onChange={(e) => handleChange(e)}
         />
@@ -91,6 +97,7 @@ function ContactUs() {
           label="Current city/state"
           variant="outlined"
           fullWidth
+          required
           value={postData.city}
           onChange={(e) => handleChange(e)}
         />
@@ -99,6 +106,7 @@ function ContactUs() {
           label="Message"
           variant="outlined"
           multiline
+          required
           fullWidth
           value={postData.message}
           onChange={(e) => handleChange(e)}
@@ -107,6 +115,7 @@ function ContactUs() {
           <Filebase
             type="file"
             multiple={false}
+            required
             onDone={({ base64 }) =>
               setPostData({ ...postData, selectedFile: base64 })
             }
