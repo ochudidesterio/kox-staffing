@@ -7,6 +7,7 @@ import ImageThree from "../../assets/images/image3";
 import Upload from "../Upload/Upload";
 import Contact from "../contactus/Contact";
 import Example from "../video/video";
+import ContactUs from "../contactus/ContactUs";
 
 function Body() {
   return (
@@ -343,18 +344,19 @@ function Body() {
       <div className="body-content-fifth" id="contact-us">
         <div className="body-content-connect">
           <h1>CONNECT WITH US</h1>
-
-          <Contact/>
-
-      
           <p>
             Are you interested in a position with Kox staffing? <br /> <br />{" "}
             Send us your information and resume by clicking the button below!
           </p>
+
+          <ContactUs/>
+
+      
+          
           {/* <button type="submit" className="btn-submit">
             SUBMIT YOUR RESUME
           </button> */}
-          <Upload />
+          {/* <Upload /> */}
         </div>
       </div>
     </div>
