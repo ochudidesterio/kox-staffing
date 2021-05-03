@@ -76,12 +76,12 @@ display: flex;
 }
 
 .map-img{
-  width: 60vw;
+  width: 80vw;
   height: 400px;
 }
-/* .body-content-location-right{
+.body-content-location-right{
   display: none;
-} */
+}
 .body-content-location>.location{
   display: flex;
   width: 50vw;
