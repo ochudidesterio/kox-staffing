@@ -26,6 +26,7 @@ function ContactUs() {
     e.preventDefault();
     console.log(postData)
     dispatch(createPost(postData,history));
+    clear()
   };
   const handleChange = (e) => {
     setPostData({ ...postData, [e.target.name]: e.target.value });

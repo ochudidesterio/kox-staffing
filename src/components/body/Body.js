@@ -4,8 +4,6 @@ import map from "../../assets/images/Map.webp";
 import ImageOne from "../../assets/images/Image1";
 import ImageTwo from "../../assets/images/image2";
 import ImageThree from "../../assets/images/image3";
-import Upload from "../Upload/Upload";
-import Contact from "../contactus/Contact";
 import Example from "../video/video";
 import ContactUs from "../contactus/ContactUs";
 

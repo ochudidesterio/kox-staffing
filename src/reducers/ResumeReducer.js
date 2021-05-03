@@ -1,4 +1,4 @@
-export default (posts=[],action)=>{
+const posts= (posts=[],action)=>{
   switch (action.type) {
     case 'CREATE':
       return[...posts,action.payload]
@@ -8,3 +8,4 @@ export default (posts=[],action)=>{
       return posts
   }
 }
+export default posts
