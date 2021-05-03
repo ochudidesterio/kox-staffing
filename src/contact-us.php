@@ -8,8 +8,9 @@ if (isset($_POST['f_name'])) {
     $email = $_POST["email"];
     $phone = $_POST["phone"];
     $message = $_POST["message"];
+    $IP = $_SERVER['REMOTE_ADDR'];
     $subject = "Kox Staffing Contact us Form";
-    $to = "austinegwa64@gmail.com";
+    $to = "info@koxstaffing.com";
 
     // Create connection
     $conn = mysqli_connect("db.koxstaffing.com", "mysql_user", "#mysql.user.1", "contact_us");
@@ -20,10 +21,10 @@ if (isset($_POST['f_name'])) {
     }
 
     //insert data to  db
-    $insert_query = "INSERT INTO  Inquiry VALUES('','$first_name', '$last_name', '$email', '$phone' , '$message')";
+    $insert_query = "INSERT INTO  Inquiry VALUES('','$first_name', '$last_name', '$email', '$phone' , '$message', '$IP')";
     if ($conn->query($insert_query) === TRUE) {
         
-    $msg = "First Name ".$first_name ."\n Last Name " . $last_name ."\n Email " . $email ."\n Message " . $message;
+    $msg = "First Name ".$first_name ."\n Last Name " . $last_name ."\n Email " . $email ."\n Message " . $message . "\n IP address ".$IP;
     
         // send email
        mail($to,$subject, $msg);
