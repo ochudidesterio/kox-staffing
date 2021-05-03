@@ -4,7 +4,7 @@ import "./contact.css";
 
 function Contact(){
 return(
-<form method="POST" action="https://koxstaffing.com/contact-us.php">
+<form method="POST" action="/contact-us.php">
             <label>
               First Name
               <input type="text" name="f_name" />
@@ -31,7 +31,7 @@ return(
             <Button
             style={{backgroundColor: "#61dafb", color: "#ffff"}}
             variant="contained"
-            type="submit">
+            type="submit" name="submit">
             Submit
           </Button>
           </form>

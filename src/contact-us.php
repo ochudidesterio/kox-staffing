@@ -1,17 +1,13 @@
 <?php
 
-// $ref = $_SERVER['HTTP_REFERER'];
-// if($ref !== 'koxstaffing.com/')
-// {
-//     die("Access Denied! please fill form in  main page");
-// }
+if (isset($_POST['f_name'])) {
   
     //form data submitted
-    $first_name = $POST["f_name"];
-    $last_name = $POST["l_name"];
-    $email = $POST["email"];
-    $phone = $POST["phone"];
-    $message = $POST["message"];
+    $first_name = $_POST["f_name"];
+    $last_name = $_POST["l_name"];
+    $email = $_POST["email"];
+    $phone = $_POST["phone"];
+    $message = $_POST["message"];
     $subject = "Kox Staffing Contact us Form";
     $to = "austinegwa64@gmail.com";
 
@@ -39,6 +35,9 @@
       }
       
       $conn->close();
+    }else{
+      echo "error please fill form on website";
+    }
 
 
   
