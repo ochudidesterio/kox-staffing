@@ -5,6 +5,7 @@ import ImageOne from "../../assets/images/Image1";
 import ImageTwo from "../../assets/images/image2";
 import ImageThree from "../../assets/images/image3";
 import Upload from "../Upload/Upload";
+import Contact from "../contactus/Contact";
 import Example from "../video/video";
 
 function Body() {
@@ -14,26 +15,23 @@ function Body() {
         {/* <img className="img" src={back} alt="back" /> */}
         <Example />
         <div className="caption">
-          <h1>TECHNO CENTRIC WORLD</h1>
-          <p>
-            World class technology for your futuristic <br /> esteemed
-            organizations
-          </p>
+          <h1>Techno Centric World</h1>
+          <p>World-class technology for your<br/> futuristic esteemed organizations</p>
         </div>
       </div>
       <div className="body-content-first" id="home">
         <div className="body-content-about">
           <h1>ABOUT KOX STAFFING</h1>
           <p>
-            Kox staffing has been delivering staffing and services for years. We
-            connect top scientific, technology, digital, and engineering
-            professionals at all career levels with companies across the world.
-            We provide solutions within our core skill areas to transform how
-            companies do business. With hundreds of thousands of successful
-            matches and thousands of projects executed, we have built a
-            reputation as one of the best in the business. Kox serves and
-            delivers to its USA clients and consultants through its USA division
-            Kox staffing.
+            Kox staffing has been delivering staffing and services for 
+             years. We connect top scientific, technology, digital, and
+            engineering professionals at all career levels with companies across
+            the world. We provide solutions within our core skill areas to
+            transform how companies do business. With hundreds of thousands of
+            successful matches and thousands of projects executed, we have built
+            a reputation as one of the best in the business. Kox serves and
+            delivers to its USA and Canada clients and consultants through its
+            USA division Kox staffing.
           </p>
           <p>
             Kox serves Global and Fortune 500, mid-market, and emerging
@@ -89,6 +87,26 @@ function Body() {
                 </ul>
               </div>
             </div>
+            {/* <div className="grid">
+              <h1>ENGINEERING</h1>
+              <div className="circle">
+                <ImageThree />{" "}
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>Electrical</li>
+                  <li>Mechanical</li>
+                  <li>
+                    Product engineering <br /> and development
+                  </li>
+                  <li>
+                    Verification and <br /> Validation
+                  </li>
+                </ul>
+              </div>
+            </div> */}
+          </div>
+          <div className="body-content-staffing-grid-bottom">
             <div className="grid">
               <h1>INFRASTRUCTURE AND SECURITY</h1>
               <div className="circle">
@@ -123,6 +141,19 @@ function Body() {
                 </ul>
               </div>
             </div>
+            {/* <div className="grid">
+              <h1>SCIENTIFIC</h1>
+              <div className="circle">
+                <ImageThree />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>Clinical Research</li>
+                  <li>Scientific</li>
+                  <li>Regulatory affairs</li>
+                </ul>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -172,22 +203,6 @@ function Body() {
                 </ul>
               </div>
             </div>
-
-            <div className="grid">
-              <h1>WORKFORCE MANAGEMENT</h1>
-              <div className="circle">
-                <ImageTwo />
-              </div>
-              <div className="hidden-content">
-                <ul>
-                  <li>
-                    Enabling an On-demand workforce <br /> with world class
-                    Human <br /> capital management procesess
-                  </li>
-                </ul>
-              </div>
-            </div>
-
             <div className="grid">
               <h1>CENTRE OF EXCELLENCE</h1>
               <div className="circle">
@@ -205,6 +220,98 @@ function Body() {
                 </ul>
               </div>
             </div>
+            {/* <div className="grid">
+              <h1>SUPPORT SERVICES</h1>
+              <div className="circle">
+                <ImageThree />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>User Support</li>
+                  <li>Desktop Support</li>
+                  <li>
+                    Data center with <br /> Workforce management
+                  </li>
+                </ul>
+              </div>
+            </div> */}
+            <div className="grid">
+              <h1>WORKFORCE MANAGEMENT</h1>
+              <div className="circle">
+                <ImageTwo />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>
+                    Enabling an On-demand workforce <br /> with world class
+                    Human <br /> capital management procesess
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div className="body-content-services-bottom">
+            {/* <div className="grid">
+              <h1>CENTRE OF EXCELLENCE</h1>
+              <div className="circle">
+                <ImageOne />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>
+                    Onshore <br /> development centers
+                  </li>
+                  <li>QA and Testing</li>
+                  <li>
+                    Project management <br /> with workforce management
+                  </li>
+                </ul>
+              </div>
+            </div> */}
+            {/* <div className="grid">
+              <h1>DIGITAL ENTERPRISE</h1>
+              <div className="circle">
+                <ImageThree />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>Digital Healthcare</li>
+                  <li>Digital Workforce</li>
+                  <li>Digital Marketing</li>
+                  <li>Digital Finance</li>
+                  <li>Digital Enterprise Software</li>
+                </ul>
+              </div>
+            </div> */}
+            {/* <div className="grid">
+              <h1>IT SECURITY</h1>
+              <div className="circle">
+                <ImageOne />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>
+                    Cybersecurty <br /> Assessments
+                  </li>
+                  <li>
+                    Security Related <br /> projects
+                  </li>
+                </ul>
+              </div>
+            </div> */}
+            {/* <div className="grid">
+              <h1>IT STRATEGY CONSULTING</h1>
+              <div className="circle">
+                <ImageTwo />
+              </div>
+              <div className="hidden-content">
+                <ul>
+                  <li>IT Governance</li>
+                  <li>IT Assessments</li>
+                  <li>Future State Visioning</li>
+                </ul>
+              </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -236,6 +343,10 @@ function Body() {
       <div className="body-content-fifth" id="contact-us">
         <div className="body-content-connect">
           <h1>CONNECT WITH US</h1>
+
+          <Contact/>
+
+      
           <p>
             Are you interested in a position with Kox staffing? <br /> <br />{" "}
             Send us your information and resume by clicking the button below!
