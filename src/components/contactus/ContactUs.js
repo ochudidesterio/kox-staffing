@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { Button, Paper, TextField } from "@material-ui/core";
 import useStyles from "./style";
 import { useDispatch } from "react-redux";
 import Filebase from "react-file-base64";
-import {useHistory} from 'react-router-dom'
+import { useHistory } from "react-router-dom";
 import { createPost } from "../../actions/Posts";
+import Validator from "simple-react-validator";
 
 const initState = {
   firstname: "",
@@ -17,17 +18,23 @@ const initState = {
 };
 
 function ContactUs() {
+  const validator = useRef(new Validator());
   const classes = useStyles();
   const dispatch = useDispatch();
-  const history = useHistory()
+  const history = useHistory();
   let [postData, setPostData] = useState(initState);
-  const [errors] = useState({});
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(postData)
-    dispatch(createPost(postData,history));
-    clear()
+    if (validator.current.allValid()) {
+      setErrors(validateEmail());
+console.log(postData)
+      dispatch(createPost(postData, history));
+    } else {
+      validator.current.showMessages();
+    }
+
+    clear();
   };
   const handleChange = (e) => {
     setPostData({ ...postData, [e.target.name]: e.target.value });
@@ -43,6 +50,29 @@ function ContactUs() {
       selectedFile: "",
     });
   };
+  const [error, setErrors] = useState({
+    input:""
+  });
+  const validateEmail = () => {
+    let input = postData.email;
+    let error = {};
+    let isValid = true;
+
+    if (typeof input !== "undefined") {
+      var pattern = new RegExp(
+        /^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i
+      );
+
+      if (!pattern.test(input)) {
+        isValid = false;
+
+        error.input = "Please enter valid email address.";
+      }
+    }
+
+    return isValid;
+  };
+
   return (
     <Paper className={classes.paper}>
       <form
@@ -51,18 +81,18 @@ function ContactUs() {
         className={`${classes.root} ${classes.form}`}
         onSubmit={handleSubmit}
       >
-        {errors.firstname}
+        {validator.current.message("firstname", postData.firstname, "required")}
         <TextField
           name="firstname"
           label="First Name"
-          type='text'
+          type="text"
           variant="outlined"
           fullWidth
           required={true}
           value={postData.firstname}
-           onChange={(e) => handleChange(e)}
+          onChange={(e) => handleChange(e)}
         />
-
+        {validator.current.message("lastname", postData.lastname, "required")}
         <TextField
           name="lastname"
           label="Last Name"
@@ -72,7 +102,8 @@ function ContactUs() {
           value={postData.lastname}
           onChange={(e) => handleChange(e)}
         />
-
+        {validator.current.message("email", postData.email, "required") }
+        {error.input}
         <TextField
           name="email"
           label="Email"
@@ -82,7 +113,11 @@ function ContactUs() {
           fullWidth
           onChange={(e) => handleChange(e)}
         />
-
+        {validator.current.message(
+          "phonenumber",
+          postData.phonenumber,
+          "required"
+        )}
         <TextField
           name="phonenumber"
           label="Phone Number"
@@ -92,6 +127,7 @@ function ContactUs() {
           value={postData.phonenumber}
           onChange={(e) => handleChange(e)}
         />
+        {validator.current.message("city", postData.city, "required")}
         <TextField
           name="city"
           label="Current city/state"
@@ -101,6 +137,7 @@ function ContactUs() {
           value={postData.city}
           onChange={(e) => handleChange(e)}
         />
+        {validator.current.message("message", postData.message, "required")}
         <TextField
           name="message"
           label="Message"
